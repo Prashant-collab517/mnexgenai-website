@@ -2,44 +2,34 @@ export default function Home() {
   return (
     <div style={{
       fontFamily: "Inter, sans-serif",
-      padding: "60px",
+      padding: "60px 20px",
       textAlign: "center"
     }}>
-      
       <img 
-        src="/logo.png" 
+        src="/logo.png"
         alt="MnexGenAI Logo"
-        style={{ width: "160px", marginBottom: "20px" }}
+        style={{ width: 140, marginBottom: 20 }}
       />
 
-      <h1 style={{ 
-        fontSize: "42px", 
-        fontWeight: "700",
-        color: "#6B4DE6" 
+      <h1 style={{
+        fontSize: 42,
+        fontWeight: 700,
+        color: "#6B4DE6",
+        marginBottom: 20
       }}>
         MnexGenAI Lead Engine
       </h1>
 
       <p style={{
-        marginTop: "16px",
-        fontSize: "20px",
-        maxWidth: "600px",
-        marginLeft: "auto",
-        marginRight: "auto"
+        fontSize: 18,
+        maxWidth: 650,
+        margin: "0 auto",
+        lineHeight: 1.6
       }}>
-        Automating lead generation, outreach, CRM workflows, and follow-ups
-        — enabling predictable revenue for founders, agencies, and businesses.
+        AI-powered automation for lead generation, outreach, CRM workflows,
+        follow-ups, and predictable revenue — built for founders, agencies,
+        and global businesses.
       </p>
-
-      <p style={{
-        marginTop: "40px",
-        fontSize: "18px",
-        color: "#333"
-      }}>
-        🚀 Your Next.js website is successfully deployed.<br/>
-        Replace this homepage with the full UI and hero sections anytime.
-      </p>
-
     </div>
   );
 }
