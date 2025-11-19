@@ -8,13 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "13.5.4",
+    "next": "14.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "@swc/core": "1.4.81",
+    "@swc/helpers": "0.4.11"
   },
-  "devDependencies": {
-    "tailwindcss": "^3.4.8",
-    "postcss": "^8.4.24",
-    "autoprefixer": "^10.4.14"
+  "engines": {
+    "node": ">=18"
   }
 }
