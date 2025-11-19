@@ -1,0 +1,1 @@
+export default function Contact(){ return <div class='container'><h1>Contact</h1><p>Email: mnexgen.ai@gmail.com</p></div>}

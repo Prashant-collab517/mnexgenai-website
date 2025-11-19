@@ -1,0 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #07020a;
+  color: #e6eef8;
+  font-family: system-ui, Arial;
+  margin: 0;
+}
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.btn { padding: 12px 20px; border-radius: 8px; font-weight: bold; display: inline-block; }
+.btn-primary { background: linear-gradient(90deg,#6b00d7,#ff2ec0,#00b8ff); color:white; }
+.card { background: rgba(255,255,255,0.05); padding:20px; border-radius:10px; }

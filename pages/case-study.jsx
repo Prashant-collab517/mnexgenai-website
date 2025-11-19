@@ -1,0 +1,1 @@
+export default function Case(){ return <div class='container'><h1>Case Study</h1></div>}
